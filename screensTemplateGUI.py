@@ -36,11 +36,11 @@ class Screen(tk.Frame):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Multi-Screen GUI with Voice")
-        self.geometry("500x300")
+        self.title("multiScreen GUI w voice over")
+        self.geometry("500x300") #need to adjust this for size
 
         self.container = tk.Frame(self)
-        self.container.pack(fill="both", expand=True)
+        self.container.pack(fill="both", expand=True) #lol
 
         self.screens = {}
         self.create_screens()
