@@ -9,7 +9,7 @@ def on_button_click():
         messagebox.showinfo("Hello!", f"Nice to meet you, {name}!")
 root = tk.Tk()
 root.title("Basic Python GUI")
-root.geometry("300x150")  # w vs h in pixles
+root.geometry("600x300")  # w vs h in pixles
 
 label = tk.Label(root, text="Enter your name:") #label
 label.pack(pady=(10, 5))  # top/bottom padding
